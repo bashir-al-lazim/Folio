@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.resize {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.box-shadow-hover:hover {
+    box-shadow: 4px 4px #000000;
+}
+.box-shadow-hover-lg:hover {
+    box-shadow: 6px 6px #000000;
+}
+.box-shadow-black {
+    box-shadow: 6px 6px #000000;
+}
+.box-shadow {
+    box-shadow: 8px 8px #ffd21c;
+}
+.box-shadow-xl {
+    box-shadow: 12px 12px #ffd21c;
+}
+.box-shadow-yellow:hover {
+    box-shadow: 8px 8px #ffd21c;
+}
+
+.animate-bounce {
+    animation: bounce 1s both !important;
+}
+
+/* responsiveness for smaller devices */
+@media screen and (max-width: 520px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 304px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 256px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 209px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width: 154px) {
+    html {
+        font-size: 20%;
+    }
+}
+
+@media screen and (max-width: 102px) {
+    html {
+        font-size: 15%;
+    }
+}
+
+@media screen and (max-width: 77px) {
+    html {
+        font-size: 10%;
+    }
+}
